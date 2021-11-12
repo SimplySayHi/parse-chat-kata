@@ -2,7 +2,7 @@
   "name": "parse-chat-kata",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/parseChat.js",
   "scripts": {
     "test": "jest"
   },
