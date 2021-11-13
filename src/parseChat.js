@@ -1,6 +1,6 @@
 
 export const parseChat = chatString => {
-    const regExpSingleChatMessage = /(\d{2}(:\d{2}){2}) (?:(?!((?<=[.])\d{2}:\d{2}:\d{2})).)*\n?/g;
+    const regExpSingleChatMessage = /(\d{2}(:\d{2}){2}) (?:(?!((?<=[.])(\d{2}(:\d{2}){2}))).)*\n?/g;
     const chatMessages = chatString.match(regExpSingleChatMessage);
     let customerName = '';
 
